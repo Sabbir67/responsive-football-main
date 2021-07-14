@@ -83,7 +83,6 @@ Fonts
  Players Part Start
  ------------------------------------*/
 .palyers{
-    
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-top: 30px;
@@ -119,3 +118,104 @@ Fonts
 /* ----------------------------------
  Players Part Finish
  ------------------------------------*/
+
+/* ----------------------------------
+ Footer Part Start
+ ------------------------------------*/
+ .footer-section{
+    text-align: center;
+    margin-top: 140px;
+ }
+ .footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .social-images{
+     display: flex;
+ }
+ .footer-image img{
+    width: 406px;
+    height: 88px;
+ }
+ .social-images img{
+     height: 32px ;
+     width: 32px;
+     padding-right: 14px;
+ }
+ .footer-copyright p{
+     font-size: 18px;
+     font-weight: 400px;
+ }
+
+
+ /* ----------------------------------
+ Footer Part Finish
+ ------------------------------------*/
+
+
+
+ /* ----------------------------------
+ Media Query 
+ ------------------------------------*/
+
+ @media only screen and (max-width:687px){
+     .container{
+         width: 100%;
+     }
+     .head-section{
+        width: 360px;
+    }
+
+     .head-element-section{
+         flex-direction: column;
+
+     }
+     .head-title-text{
+        margin-left: 15px ;
+        width: 360px;
+        font-size: 36px;
+        
+    }
+    .head-image img{
+        width: 326px;
+        height: 212px;
+        margin-top: 30px;
+        
+    }
+    .head-text p{
+        margin-left: 15px ;
+    }
+     
+
+     /* player Section */
+     .palyers{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 15px;
+        grid-row-gap:15px
+    }
+   
+
+    /* Footer Section */
+
+    .footer-content{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }  
+      .footer-section{
+       
+        margin-top: 45px;
+    }
+     .footer-image img{
+        width: 230px;
+        height: 54px;
+       
+     } 
+
+     
+
+}
