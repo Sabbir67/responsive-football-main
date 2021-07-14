@@ -13,15 +13,75 @@ Fonts
  }
  main{
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
 }
 .container{
-    /* background-color: white; */
     width: 1050px;
     padding: 30px;
 }
+
+/* ----------------------------------
+ Header Part Start
+ ------------------------------------*/
+.head-section{
+    background-color: #2D25A0;
+}
+.head-element-section{
+    padding-top: 60px;
+    padding-bottom: 88px;
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.head-title-text{
+    width: 445px;
+    font-size: 54px;
+    color: #FFFFFF;
+    line-height: 80px;
+    font-weight: 700px;
+}
+.head-title-text:hover{
+    color: yellow;
+    transition: color 2s;
+    
+}
+.header-button{
+    width: 120px;
+    background-color: #E02C6D;
+    padding: 10px 24px 10px 24px;
+    margin-top: -27px;
+}
+.header-button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400px;
+}
+.header-button a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+}
+.head-image img{
+    width: 556px;
+    height: 438px;
+}
+
+/* Image Animation Effect */
+.head-image img:hover{
+    transform: scale(1.1) rotate(5deg);
+    transition: transform 2s;
+}
+/* ----------------------------------
+ Header Part Finish
+ ------------------------------------*/
+
+
+
+/* ----------------------------------
+ Players Part Start
+ ------------------------------------*/
 .palyers{
     
     display: grid;
@@ -56,3 +116,6 @@ Fonts
     line-height: 26px;
     color: #6C6C6C;
 }
+/* ----------------------------------
+ Players Part Finish
+ ------------------------------------*/
