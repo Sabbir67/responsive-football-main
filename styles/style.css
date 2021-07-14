@@ -292,8 +292,18 @@ Fonts
          height: 300px;
      }
 
-
-
+     /* Blog Section  */
+     
+     .blog-text{
+        text-align: center;
+    }
+    .blogs{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       grid-row-gap:10px;
+       padding-left: 20px;
+       
+    }
     /* Footer Section */
 
     .footer-content{
@@ -311,6 +321,7 @@ Fonts
         height: 54px;
        
      } 
+
 
  /* ----------------------------------
  Media Query FInish
