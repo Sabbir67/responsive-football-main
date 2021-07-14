@@ -1,0 +1,58 @@
+/* ---------------------------------
+Fonts  
+-------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap');
+
+/* ----------------------------------
+ Common Css Section 
+ ------------------------------------*/
+
+ body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3f1FF;
+ }
+ main{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    /* background-color: white; */
+    width: 1050px;
+    padding: 30px;
+}
+.palyers{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 30px;
+    grid-row-gap:27px;
+}
+.player{
+   background-color: white;
+   width: 300px;
+   height: 474px;
+   box-shadow: 0px 1px 20px 0px rgb(153, 151, 148);
+   padding: 15px;
+}
+.player-banner img{
+
+    Width:100%;
+    Height: 256px;
+}
+.player-name{
+    
+    font-weight: 700px;
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.player-biography{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
